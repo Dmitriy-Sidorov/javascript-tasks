@@ -1,3 +1,5 @@
+console.log('--------------------');
+
 function triangle(symbol, row) {
     let item = '';
     for (let i = 0; i < row; i++) {
@@ -6,3 +8,5 @@ function triangle(symbol, row) {
     }
 }
 triangle('#', 7);
+
+console.log('--------------------');

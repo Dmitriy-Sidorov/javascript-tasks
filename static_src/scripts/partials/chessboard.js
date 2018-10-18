@@ -1,3 +1,5 @@
+console.log('--------------------');
+
 function chessboard(symbol1, symbol2, row, col) {
     let result = "\n";
     for (let i = 1; i <= row; i++) {
@@ -9,3 +11,5 @@ function chessboard(symbol1, symbol2, row, col) {
     console.log(result);
 }
 chessboard('*', ' ', 8, 8);
+
+console.log('--------------------');
